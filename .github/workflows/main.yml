@@ -1,3 +1,4 @@
+```yaml
 name: Build Flutter APK
 
 on:
@@ -12,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout project
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
@@ -30,3 +31,4 @@ jobs:
         with:
           name: flutter-apk
           path: build/app/outputs/flutter-apk/app-release.apk
+```
