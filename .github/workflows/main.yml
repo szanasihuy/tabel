@@ -1,4 +1,4 @@
-```yaml
+
 name: Build Flutter APK
 
 on:
@@ -31,4 +31,4 @@ jobs:
         with:
           name: flutter-apk
           path: build/app/outputs/flutter-apk/app-release.apk
-```
+
